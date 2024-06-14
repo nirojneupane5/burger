@@ -7,7 +7,7 @@ const inter = Oswald({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Burger",
-  description: "Burger",
+  description: "Burger Website | Developed by Niroj Neupane",
 };
 
 export default function RootLayout({
