@@ -8,7 +8,7 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main>
-      <section className="py-10">
+      <section className="py-16 md:py-10">
         <div className="max-w-[1320px] mx-auto flex flex-col md:flex-row items-center gap-10 md:gap-0 px-2 md:px-0 ">
           <div className="mx-auto md:basis-1/2 lg:basis-2/5 animate-movingY">
             <Image
