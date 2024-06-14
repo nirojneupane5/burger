@@ -2,4 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-
+@layer {
+    body {
+        @apply text-whiteColor bg-primaryColor tracking-wider;
+    }
+}
