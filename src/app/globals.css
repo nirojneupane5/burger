@@ -2,8 +2,21 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer {
+@layer base {
     body {
         @apply text-whiteColor bg-primaryColor tracking-wider;
+    }
+}
+@layer utilities {
+    .home_title {
+        @apply text-4xl font-bold uppercase lg:text-5xl
+    }
+
+    .seperator {
+        @apply w-36 md:w-full h-[2px] my-5 bg-secondaryColor
+    }
+
+    .paragraph {
+        @apply text-paragraphColor text-xs leading-5
     }
 }
