@@ -12,6 +12,7 @@ import beverage from "../../public/img/beverage-2.png";
 import PromoCard from "@/components/card/PromoCard";
 import promo1 from "../../public/img/promo-1.png";
 import promo2 from "../../public/img/promo-2.png";
+import About from "./about/page";
 export default function Home() {
   return (
     <main>
@@ -114,6 +115,9 @@ export default function Home() {
           method="Buy online"
           className="bg-primaryColorLight flex-1"
         />
+      </section>
+      <section className="max-w-[1320px] mx-auto">
+        <About />
       </section>
     </main>
   );
