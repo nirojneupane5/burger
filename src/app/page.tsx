@@ -13,6 +13,7 @@ import PromoCard from "@/components/card/PromoCard";
 import promo1 from "../../public/img/promo-1.png";
 import promo2 from "../../public/img/promo-2.png";
 import About from "./about/page";
+import Menu from "./menu/page";
 export default function Home() {
   return (
     <main>
@@ -74,7 +75,7 @@ export default function Home() {
         </div>
       </section>
       {/* Category */}
-      <section className="max-w-[1320px] mx-auto py-5 space-y-5 md:space-y-0 flex flex-col md:flex-row">
+      <section className="container py-5 space-y-5 md:space-y-0 flex flex-col md:flex-row">
         <Card
           title="Food"
           img={burger1}
@@ -98,7 +99,7 @@ export default function Home() {
         />
       </section>
       {/* Promo */}
-      <section className="max-w-[1320px] mx-auto py-5 space-y-5 md:space-y-0 flex flex-col md:flex-row ">
+      <section className="container py-5 space-y-5 md:space-y-0 flex flex-col md:flex-row ">
         <PromoCard
           title="Payday promo"
           promo="Get a 10% discount on a payday week"
@@ -116,8 +117,11 @@ export default function Home() {
           className="bg-primaryColorLight flex-1"
         />
       </section>
-      <section className="max-w-[1320px] mx-auto">
+      <section className="container py-10">
         <About />
+      </section>
+      <section className="container py-10">
+        <Menu />
       </section>
     </main>
   );

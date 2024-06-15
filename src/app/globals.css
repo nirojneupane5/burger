@@ -17,6 +17,10 @@
     }
 
     .paragraph {
-        @apply text-paragraphColor text-xs leading-5
-    }
+        @apply text-paragraphColor text-xs md:text-xl leading-5
+        }
+        
+        .container {
+            @apply max-w-[1320px] mx-auto
+        }
 }
