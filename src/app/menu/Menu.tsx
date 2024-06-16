@@ -1,12 +1,17 @@
 "use client";
 import { useState } from "react";
 
-const MenuItem = () => {
+type TMenuItemProps = {
+  handleCategroyChange: (category: string) => void;
+};
+
+const MenuItem = ({ handleCategroyChange }: TMenuItemProps) => {
   const [activeItem, setActiveItem] = useState<string>("ALL");
   const item: string[] = ["ALL", "Food", "Snack", "Beverage"];
 
   const handleClick = (info: string) => {
     setActiveItem(info);
+    handleCategroyChange(info);
   };
   return (
     <ul className="flex flex-wrap items-center gap-4 py-10">

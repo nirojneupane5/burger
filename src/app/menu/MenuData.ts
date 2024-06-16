@@ -89,31 +89,31 @@ export const snackData:TMenuProps[]=[
 
 export const beverageData:TMenuProps[]=[
     {
-    title:"French Fries",
+    title:"Sweet Smoothie",
     img:beverage1,
     desc:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exrecusandae quam nisi ipsa autem quos!",
     price:250
 },
 {
-    title:"Fried Patato with Patletar Favour",
+    title:"Seasonal Fruit Juice",
     img:beverage2,
     desc:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exrecusandae quam nisi ipsa autem quos!",
     price:300
 },
 {
-    title:"Regular Sandwich",
+    title:"Watermelon Juice",
     img:beverage3,
     desc:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exrecusandae quam nisi ipsa autem quos!",
     price:350
 },
 {
-    title:"Spicy Chips",
+    title:"Sweet Smoothie",
     img:beverage4,
     desc:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exrecusandae quam nisi ipsa autem quos!",
     price:450
 },
 {
-    title:"French Fires Mustang Special",
+    title:"Apple Juice",
     img:beverage5,
     desc:"Lorem ipsum, dolor sit amet consectetur adipisicing elit. Exrecusandae quam nisi ipsa autem quos!",
     price:150
