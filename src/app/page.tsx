@@ -16,6 +16,7 @@ import About from "./about/page";
 import Menu from "./menu/page";
 import Review from "./review/page";
 import Contact from "./contact/page";
+import Footer from "@/components/Footer/Footer";
 export default function Home() {
   return (
     <main>
@@ -130,6 +131,9 @@ export default function Home() {
       </section>
       <section className="container py-10">
         <Contact />
+      </section>
+      <section className="container py-10 border-t-2 border-secondaryColor border-solid">
+        <Footer />
       </section>
     </main>
   );
