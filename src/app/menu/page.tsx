@@ -20,7 +20,7 @@ const Menu = () => {
     } else if (category === "Beverage") {
       setFilterData(beverageData);
     } else {
-      setFilterData([...beverageData, ...snackData, ...beverageData]);
+      setFilterData([...burgerData, ...snackData, ...beverageData]);
     }
   };
 
@@ -35,7 +35,6 @@ const Menu = () => {
         </p>
         <MenuItem handleCategroyChange={handleCategroyChange} />
       </div>
-      {/* Burger */}
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 lg:gap-10">
         {filterData &&
           filterData.map((info, index) => (
