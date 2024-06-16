@@ -15,6 +15,7 @@ import promo2 from "../../public/img/promo-2.png";
 import About from "./about/page";
 import Menu from "./menu/page";
 import Review from "./review/page";
+import Contact from "./contact/page";
 export default function Home() {
   return (
     <main>
@@ -126,6 +127,9 @@ export default function Home() {
       </section>
       <section className="container py-10 bg-primaryColorLight">
         <Review />
+      </section>
+      <section className="container py-10">
+        <Contact />
       </section>
     </main>
   );
