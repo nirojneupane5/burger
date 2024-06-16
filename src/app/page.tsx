@@ -132,9 +132,9 @@ export default function Home() {
       <section className="container py-10">
         <Contact />
       </section>
-      <section className="container py-10 border-t-2 border-secondaryColor border-solid">
+      <footer className="container py-10 border-t-2 border-secondaryColor border-solid">
         <Footer />
-      </section>
+      </footer>
     </main>
   );
 }
